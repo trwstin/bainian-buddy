@@ -8,4 +8,4 @@ Greetings generator for Chinese New Year.
 
 ## Coming Soon!
 - Bookmark your favourite greetings
-- Download favourite greetings as a .txt
+- Download favourite greetings as a text file
