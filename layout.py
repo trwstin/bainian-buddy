@@ -4,7 +4,7 @@ import dash
 import base64
 
 # app settings
-app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
+app = dash.Dash(__name__, update_title=None)
 app.title = "bai nian buddy"
 server = app.server
 
