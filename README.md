@@ -5,5 +5,7 @@ Greetings generator for Chinese New Year.
 1. Generates 40+ greetings in Mandarin
 2. Displays pinyin for accurate pronounciation
 3. Text-to-speech if pinyin is not enough
-4. Bookmark your favourite greetings
-5. Download favourite greetings as a picture or text file
+
+## Coming Soon!
+- Bookmark your favourite greetings
+- Download favourite greetings as a picture or text file
