@@ -1,0 +1,168 @@
+.js-plotly-plot .plotly .modebar {
+  padding-top: 0%;
+  margin-right: 3.5%;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0%;
+}
+
+.app_header {
+  display: flex;
+  align-items: right;
+  background-color: #eeeeee;
+  height: 100px;
+}
+
+.header_text {
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin: auto;
+  background-image: linear-gradient(60deg, #E21143, #FFB03A);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.greeting_text {
+  background-image: linear-gradient(60deg, #E21143, #FFB03A);
+  background-clip: text;
+  color: transparent;
+  padding-top: 50px;
+}
+
+.two.columns {
+  width: 16.25%;
+}
+
+.column,
+.columns {
+  margin-left: 0.5%;
+}
+
+.pretty_container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.bare_container {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.dcc_control {
+  margin: 0;
+  padding: 5px;
+  width: calc(100%- 40px);
+}
+
+.control_label {
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100%- 40px);
+}
+
+.rc-slider {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.container-display {
+  display: flex;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  color: #ff6488;
+  border-color: #ff6488;
+}
+
+#farm_button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#header {
+  align-items: center;
+}
+
+#learn-more-button {
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  text-transform: none;
+  font-size: 15px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+#title {
+  text-align: center;
+}
+
+.mini_container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+#right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#domain {
+  flex: 1;
+}
+
+#total_artifacts {
+  flex: 1;
+}
+
+#total_resin {
+  flex: 1;
+}
+
+#tripleContainer {
+  display: flex;
+  flex: 3;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#artifact_container {
+  height: 100px;
+  display: inline-flex;
+  align-items: center;
+}
+
+Li::before{
+  content: counter(Li + '. ');
+}
+
+Li {
+  margin-top: 20px;
+  counter-increment: Li;
+}
