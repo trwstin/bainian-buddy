@@ -104,12 +104,12 @@ body {
   display: inline-block;
   width: 1em;
   height: 1em;
-  color: #000;
+  color: #FFB8B8;
   border-radius: 50%;
-  margin: 72px auto;
-  vertical-align: text-bottom;
+  margin: auto;
+  vertical-align: middle;
   animation: load6 1s infinite ease, round 1s infinite ease;
-  margin-top: 2rem;
+  margin-top: 200px;
 }
 
 @-webkit-keyframes load6 {
