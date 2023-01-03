@@ -90,6 +90,10 @@ body {
   border-color: #ff6488;
 }
 
+.loop-container {
+  -webkit-tap-highlight-color: transparent;
+}
+
 ._dash-loading {
   margin: auto;
   color: transparent;
